@@ -1,0 +1,150 @@
+
+    /* Algemene stijlen */
+    body {
+        margin: 0;
+        background-color: var(--testing-color);
+        color: #ffffff;
+        /* font-size: 15px; */
+        font-family: var(--font-poppins);
+
+    }
+
+    /* Header */
+    header {
+        /* text-align: center; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+
+    }
+
+
+    h1 {
+        text-align: center;
+        font-size: var(--heading1);
+        color: var(--general-color);
+        width: 100%;
+    }
+
+
+    h2{
+        font-family: var(--font-poppins);
+        font-size: var(--heading2);
+        color: var(--general-color);
+    }
+
+
+    /* Knoppen */
+    button {
+        position: absolute;          
+        /* right: 20px;        */
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        border-radius: 50px;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        
+    }
+
+    /* Main */
+    main {
+        padding: 20px;
+    }
+
+    input {
+        opacity: 0;
+    }
+
+    input:focus + img {
+        outline: 2px solid  #9264f4;
+    }
+
+    /* Afbeeldingen */
+    img {
+        max-width: 1500px;
+        height: auto;
+        
+    }
+
+    .button1 {
+        margin-left: auto;
+    }
+
+    .header-image{
+        /* margin-left: auto; */
+
+        @media (min-width: 470px) {
+            display: none;
+        }
+    }
+
+    p{
+        font-family: var(--font-poppins);
+        font-size: var(--body-text-paragraph);
+        color: var(--general-color);
+        align-items: center;
+    }
+
+    /* Profielen grid */
+    .profielen {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+        max-width: 48em;
+        gap: 1.5;
+        padding: 2%;
+        align-items:center;
+        transition: filter 0.3s ease; /* Smooth transition */
+        margin-inline: auto;
+    
+        @media (min-width: 645px) {
+            /* display: none; */
+            
+        }
+
+        @media (min-width: 640px) {
+            img {
+                transition: transform 0.3s ease, box-shadow 0.3s ease; /* Soepele overgang */
+            }
+             img:hover {
+                transform: scale(1.1); /* Vergroot de afbeelding  */
+            }
+        }
+    }
+
+        
+
+
+    .round-image {
+        border-radius: 50%;
+        background: white;
+        
+    }
+    
+
+    label {
+        display: flex;             
+        flex-direction: column;    
+        align-items: center;        
+        justify-content: center;   
+        font-size: 24px;
+        text-align: center;        
+    }
+
+
+
+    footer{
+        text-align: center;
+        display: none;
+        @media (min-width: 470px) {
+            display: block;
+        }
+    }
+
+    /* Specifieke styling voor p-tags */
+        label p {
+        margin-top: 10px;          
+        font-size: 18px;          
+    }
