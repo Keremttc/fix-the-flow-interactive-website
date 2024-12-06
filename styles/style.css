@@ -74,6 +74,8 @@
 
     .header-image{
         /* margin-left: auto; */
+        background-color: #256783;
+        border-radius: 30px;
 
         @media (min-width: 470px) {
             display: none;
