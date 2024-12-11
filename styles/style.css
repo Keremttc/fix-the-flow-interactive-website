@@ -118,7 +118,9 @@
 
         
 
-
+    .hidden{
+        display: none;
+    }
     .round-image {
         border-radius: 50%;
         background: white;
