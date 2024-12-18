@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +15,11 @@
   <!-- Dit is de header -->
 <header>
     <h1>Select account</h1>
-    <div class="button1">
-        <a href="#" onclick=deleteProfile()>
+    <div>
+        <!-- <button class="DeleteButton"> -->
             <!-- onclick betekent dat hij naar javascript gaat en daar de functie roept -->
-            <img class="header-image" src="assets/Group 632105.svg" alt="Button Image"  width="50" height="50">
-        </a> 
+            <!-- <img class="header-image" src="assets/Group 632105.svg" alt="Button Image"  width="50" height="50"> -->
+        <!-- </button>  -->
     </div>
 </header>
 
@@ -27,22 +28,28 @@
 <!-- Profielen-sectie -->
 <main> 
     <section class="profielen">
-        <label>
+
+        <label class="DeleteProfile1">
             <input type="radio" name="buddy" value="raymond">
             <img class="round-image" src="assets/muis2.0.svg" alt="foto van een muis" width="130" height="130">   
             <p>Daan</p>
+            <button class="DeleteProfile1-button">Delete</button>
+
         </label>
 
-        <label>
+        <label class="DeleteProfile2">
             <input type="radio" name="buddy" value="Sara">
             <img class="round-image" src="assets/az.svg" alt="foto van een penguin" width="130" height="130">   
             <p>Sara</p>
+            <button class="DeleteProfile2-button">Delete</button>
         </label>
 
-        <label>
+        <label class="DeleteProfile3">
+            
             <input type="radio" name="buddy" value="Raymond">
             <img class="round-image" src="assets/muis2.0.svg" alt="een voeg button" width="130" height="130">   
             <p>Kerem</p>
+            <button class="DeleteProfile3-button">Delete</button>
         </label>
 
         <label>
@@ -56,7 +63,8 @@
 
 <!-- De footer -->
 <footer>
-    <p>Manage profile</p>
+    <label class="manage">
+    <p>Manage profile</p></label>
 </footer>
     
 
