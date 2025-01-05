@@ -41,11 +41,6 @@ De knoppen onder de profielen kan je verwijderen dat is feedforward. Drie belang
 
 Vervolgens zijn de knoppen weg dat is de feedback. 
 
-
-
-
-
-
   ## Github
 
 https://keremttc.github.io/look-and-feel-corporate-identity/<!-- Voeg een link toe naar Github Pages 🌐-->
@@ -75,7 +70,7 @@ Voor mijn ontwerpkeuze heb ik een uitgebreide breakdownschets gemaakt van de log
 
 Daarnaast heb ik ook een Javascript-functie geschetst die de functionaliteit van de delete-knop ondersteunt. In mijn schets wordt duidelijk hoe deze functie werkt, bijvoorbeeld door het profiel uit de lijst te verwijderen. Door deze functie alvast uit te werken, krijg ik een goed beeld van de technische kant en weet ik zeker dat het ontwerp niet alleen mooi is, maar ook praktisch en functioneel.  
 
-![WhatsApp Image 2025-01-05 at 15 17 36](https://github.com/user-attachments/assets/1f16d765-c0f3-4554-af11-75468b519f1c)
+![Breakdown-schets](https://github.com/user-attachments/assets/3a6243d3-7f53-40b0-abe6-8af03e50dbeb)
 
 
 ## Licentie
