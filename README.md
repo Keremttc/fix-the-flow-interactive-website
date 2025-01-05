@@ -69,6 +69,14 @@ function deleteProfile1() {
          
 Een kleine tip tijdens de user-test: Ik kreeg als feedback om de profielen een voor een te kunnen verwijderen in plaats van alles in een keer.
 
+## ontwerpkeuzes 
+
+Voor mijn ontwerpkeuze heb ik een uitgebreide breakdownschets gemaakt van de log-in pagina. Deze schets laat niet alleen de visuele indeling van de pagina zien, maar ook de functionaliteit en een idee te geven van bepaalde elementen. Ik heb ervoor gekozen om bij elk profiel een delete-knop te plaatsen. Dit biedt gebruikers de mogelijkheid om een profiel te verwijderen als dat nodig is. De pagina is opgebouwd uit drie hoofdonderdelen: een **header**, een **main** en een **footer**. In de header worden bijvoorbeeld het logo en een eventuele navigatie weergegeven. De main-sectie is het centrale deel van de pagina en bevat de lijst met profielen. Hier heb ik ook laten zien wat er gebeurt als je op de delete-knop klikt. Hiervan heb ik opok een breakdownschets gemaakt.
+
+Daarnaast heb ik ook een Javascript-functie geschetst die de functionaliteit van de delete-knop ondersteunt. In mijn schets wordt duidelijk hoe deze functie werkt, bijvoorbeeld door het profiel uit de lijst te verwijderen. Door deze functie alvast uit te werken, krijg ik een goed beeld van de technische kant en weet ik zeker dat het ontwerp niet alleen mooi is, maar ook praktisch en functioneel.  
+
+![WhatsApp Image 2025-01-05 at 15 17 36](https://github.com/user-attachments/assets/1f16d765-c0f3-4554-af11-75468b519f1c)
+
 
 ## Licentie
 
